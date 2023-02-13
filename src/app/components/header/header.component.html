@@ -1,0 +1,27 @@
+<div class="logo">
+  <img src="/artVacancies/assets/bgaeklogo.png" alt="logo">
+</div>
+<div class="title">
+  <h1>АРТ ВАКАЦИИ</h1>
+</div>
+<div class="menu">
+  <svg *ngIf="!isMenuActive" (click)="isMenuActive = true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+    <path stroke-linecap="round" stroke-linejoin="round"
+      d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+  </svg>
+  <svg *ngIf="isMenuActive" (click)="isMenuActive = false" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+  </svg>
+
+</div>
+<div class="menuBox" *ngIf="isMenuActive">
+  <div class="item">
+    <span>Программка</span>
+  </div>
+  <div class="item">
+    <span>Студия Лотос</span>
+  </div>
+  <div class="item">
+    <span>Студия Контакт</span>
+  </div>
+</div>

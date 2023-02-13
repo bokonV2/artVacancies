@@ -1,0 +1,56 @@
+:host {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+  height: 52px;
+  background: #273043;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 6px;
+  img {
+    height: 100%;
+  }
+}
+.title {
+  flex: 1;
+  h1 {
+    color: #eff6ee;
+    line-height: 1;
+  }
+}
+.menu {
+  display: flex;
+  padding-right: 16px;
+  width: fit-content;
+  height: fit-content;
+  svg {
+    stroke: #eff6ee;
+    height: 28px;
+    width: 28px;
+  }
+}
+.menuBox{
+  position: fixed;
+  top: calc(52px + 2px);
+  background: #273043;
+  width: 100vw;
+  padding: 4px 6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .item{
+    width: 100%;
+    margin: 8px 12px;
+    margin-left: 24px;
+    span {
+      color: #eff6ee;
+    }
+  }
+}

@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgba($color: #000000, $alpha: .9);
+  font-family: 'Oswald', sans-serif;
+}
+
+body, html {
+  background: #eff6ee;
+  min-height: 100%;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #f02d3a;
+}

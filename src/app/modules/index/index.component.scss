@@ -1,0 +1,46 @@
+.page {
+  padding: 8px 12px;
+}
+.artLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 200px;
+  }
+}
+.pr {
+  &_list{
+    margin-left: 32px;
+  }
+}
+
+.title {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.info {
+  &-img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    span {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .foot {
+      width: 100%;
+      padding: 0 28px;
+    }
+  }
+  &-text {
+    margin-top: 8px;
+    div {
+      text-align: justify;
+      text-indent: 8px;
+    }
+  }
+}
